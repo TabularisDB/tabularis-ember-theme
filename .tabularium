@@ -1,0 +1,35 @@
+{
+  "$schema": "https://registry.tabularis.dev/manifest.schema.json?kind=theme",
+  "id": "ember-theme",
+  "name": "Ember Theme for Tabularis",
+  "description": "A warm two-variant theme for Tabularis: charcoal and amber in Ember Dark, parchment and copper in Ember Light.",
+  "license": "MIT",
+  "tags": [
+    "theme",
+    "warm",
+    "amber",
+    "dark",
+    "light"
+  ],
+  "readme": "README.md",
+  "homepage": "https://github.com/TabularisDB/tabularis-ember-theme",
+  "support": {
+    "issues_url": "https://github.com/TabularisDB/tabularis-ember-theme/issues"
+  },
+  "version": "1.0.0",
+  "kind": "theme",
+  "min_runtime_version": "0.25.1-1",
+  "theme_schema_version": 1,
+  "theme_variants": [
+    {
+      "id": "light",
+      "name": "Ember Light",
+      "file": "themes/light.json"
+    },
+    {
+      "id": "dark",
+      "name": "Ember Dark",
+      "file": "themes/dark.json"
+    }
+  ]
+}
